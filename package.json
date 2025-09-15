@@ -1,13 +1,14 @@
 {
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build"
-    },
-    "devDependencies": {
-        "axios": "^1.6.4",
-        "laravel-vite-plugin": "^1.0",
-        "vite": "^5.0"
-    }
+  "name": "greengo-delivery-api",
+  "version": "1.0.0",
+  "description": "Greengo Delivery API",
+  "main": "index.js",
+  "scripts": {
+    "start": "php artisan serve --host=0.0.0.0 --port=$PORT",
+    "build": "echo 'No build step required for PHP'",
+    "dev": "php artisan serve --host=0.0.0.0 --port=8000"
+  },
+  "keywords": ["laravel", "api", "delivery"],
+  "author": "Greengo Delivery",
+  "license": "MIT"
 }
